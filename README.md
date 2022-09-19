@@ -1,5 +1,5 @@
 # JSGradient
-Simple JavaScript package to generate gradient colors
+Simple JavaScript package for developers to generate gradient colors. It generates list of colors between 2 colors as hex code.
 
 ## Usage
 
