@@ -1,0 +1,32 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JSGradient | JavaScript Gradient Color Generator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+	<h1>JSGradient</h1>
+	<p>Simple JavaScript package to generate gradient colors</p>
+	<h2>Usage</h2>
+	<pre style="display: block; overflow-x: auto; background: rgb(43, 43, 43); color: rgb(248, 248, 242); padding: 0.75em;"><code class="language-text" style="white-space: pre;"><span style="">var gradientColors = new JSGradient(["#8A2387", "#F27121"], 3); //Returns ["#8a2387", "#ac3d65", "#cf5743"]</span></code></pre>
+	<div id="example" style="text-align:center;margin:auto;color:#fff;font-size:40px; padding: 100px">JSGradient</div>
+	<h2>Contributing</h2>
+	<p>Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.</p>
+	<h2>License</h2>
+	<p><a href="https://choosealicense.com/licenses/mit/">MIT</a></p>
+	
+	<script src="dist/jsgradient.min.js"></script>
+	<script>
+		var gradientColors = new JSGradient(["#8A2387", "#F27121"], 3);
+		var colors = gradientColors.toString();
+		
+		var dom = document.getElementById("example");
+		
+		dom.style.backgroundImage = 'linear-gradient(to right,' + colors + ')';
+		
+		console.log(colors);
+	</script>
+  </body>
+</html>
