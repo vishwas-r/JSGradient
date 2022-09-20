@@ -1,0 +1,21 @@
+{
+  "name": "jsgradient",
+  "version": "1.0.0",
+  "description": "Gradient Color Generator in JS",
+  "main": "dist/jsgradient.min.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishwas-r/JSGradient.git"
+  },
+  "keywords": [
+    "jscolors",
+    "jsgradient",
+    "gradient"
+  ],
+  "author": "Vishwas R",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vishwas-r/JSGradient/issues"
+  },
+  "homepage": "https://github.com/vishwas-r/JSGradient#readme"
+}
