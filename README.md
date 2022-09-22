@@ -1,5 +1,6 @@
 # JSGradient
 Simple JavaScript package for developers to generate gradient colors. It generates list of colors between 2 colors as hex code.
+[![Featured on Openbase](https://badges.openbase.com/js/featured/jsgradient.svg?token=uAG2GLRrTeg/9jhSs1fufnhPJyGifByssLvsaEixlcA=)](https://openbase.com/js/jsgradient?utm_source=embedded&amp;utm_medium=badge&amp;utm_campaign=rate-badge)
 
 ## Usage
 
